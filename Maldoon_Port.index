@@ -4,10 +4,11 @@
         <info>
             <name>Maldoon's Ports and Fixes</name>
             <update version="0.0.1">
-                <file name="Maldoon_Port.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master//Untitled-1" />
+                <file name="Maldoon_Port.index" url="https://github.com/Maldoon/Aurora_repository/blob/main/Maldoon_Port.index" />
             </update>
         </info>
         <files>
-            <file name="filename.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master//Untitled-1/filename.xml" />
+            <file name="fixes.index" url="baseurl/fixes.index" />
+            <file name="homebrew.index" url="baseurl/homebrew.index" />
         </files>
     </index>

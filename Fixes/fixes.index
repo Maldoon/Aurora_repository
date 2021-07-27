@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>Maldoon's Fixes</name>
+        <update version="0.0.1">
+            <file name="fixes.index" url="placehodler" />
+        </update>
+    </info>
+    <files>
+        <file name="sorcerer-stoneheart_Fixed.xml" url="placeholder" />
+    </files>
+</index>
