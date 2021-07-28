@@ -42,13 +42,13 @@
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_ELVISH" />
-            <grant type="Racial Trait" id="ID_MDP_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED" />
-            <grant type="Racial Trait" id="ID_MDP_RACIAL_TRAIT_FORECLAIMER_OBSERVANT" />
-            <grant type="Racial Trait" id="ID_MDP_RACIAL_TRAIT_FORECLAIMER_POWERED" />
-            <grant type="Racial Trait" id="ID_MDP_RACIAL_TRAIT_FORECLAIMER_SUBRACE"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORECLAIMER_OBSERVANT" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORECLAIMER_POWERED" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORECLAIMER_SUBRACE"/>
         </rules>
 
-        <element name="Solar Powered" type="Racial Trait" source="D&amp;D Wiki" id="ID_MDP_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED">
+        <element name="Solar Powered" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED">
             <description>
                 <p>When powered, you do not need to sleep nor can you be put to sleep from magical effects.</p>
             </description>
@@ -56,7 +56,7 @@
                 <description>When powered, you do not need to sleep nor can you be put to sleep from magical effects.</description>
             </sheet>
         </element>
-        <element name="Observant" type="Racial Trait" source="D&amp;D Wiki" id="ID_MDP_RACIAL_TRAIT_FORECLAIMER_OBSERVANT">
+        <element name="Observant" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FORECLAIMER_OBSERVANT">
             <description>
                 <p>You are proficient in your choice of Perception or Investigation</p>
             </description>
@@ -78,7 +78,7 @@
             </sheet>
         </element>
 
-        <element name="Forclaimer Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_MDP_RACIAL_TRAIT_FORECLAIMER_SUBRACE">
+        <element name="Forclaimer Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FORECLAIMER_SUBRACE">
             <description>
                 <p>Adult Foreclaimers may choose to accept a type of body augmentation and subsequently be classified as a subrace. Choosing a body augmentation requires creating a new power crystal, which allows for only one augmentation at a time. The removal and insertion of a new crystal takes a toll on the Foreclaimer's body, and requires a long rest for the effects of the new crystal to take place.</p>
             </description>
@@ -89,7 +89,7 @@
         </element>
 
         <!--Subraces -->
-        <element name="Gills" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_GILLS">
+        <element name="Gills" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_GILLS">
             <description>
                 <p>You gain the ability to breathe underwater.</p>
             </description>
@@ -97,7 +97,7 @@
                 <description>You gain the ability to breathe underwater.</description>
             </sheet>
         </element>
-        <element name="Cat Eyes" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_CATEYES">
+        <element name="Cat Eyes" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_CATEYES">
             <description>
                 <p>Gain darkvision to a range of 60 feet.</p>
             </description>
@@ -108,7 +108,7 @@
                 <grant type="Vision" id="ID_VISION_DARKVISION" />
             </rules>
         </element>
-        <element name="Stick Palm Glands" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_STICKGLANDS">
+        <element name="Stick Palm Glands" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_STICKGLANDS">
             <description>
                 <p>You gain a Climbing speed of 20 feet.</p>
             </description>
@@ -119,7 +119,7 @@
                 <stat name="speed:climb" value="20" />
             </rules>
         </element>
-        <element name="Muscle Enhancement" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_MUSCLEUP">
+        <element name="Muscle Enhancement" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_MUSCLEUP">
             <description>
                 <p>You gain a +1 to your Strength while Powered.</p>
             </description>
@@ -130,7 +130,7 @@
                 <stat name="strength" value="1" />
             </rules>
         </element>
-        <element name="Metallic Skin" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_METALSKIN">
+        <element name="Metallic Skin" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_METALSKIN">
             <description>
                 <p>You gain a +1 to your Constitution while Powered.</p>
             </description>
@@ -141,7 +141,7 @@
                 <stat name="constitution" value="1" />
             </rules>
         </element>
-        <element name="Tempered Skin" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_TEMPEREDSKIN">
+        <element name="Tempered Skin" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_TEMPEREDSKIN">
             <description>
                 <p>You gain resistance to Fire damage while powered.</p>
             </description>
@@ -149,7 +149,7 @@
                 <description>You gain resistance to Fire damage while powered.</description>
             </sheet>
         </element>
-        <element name="Agility Enhancement" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_AGILITYUP">
+        <element name="Agility Enhancement" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_AGILITYUP">
             <description>
                 <p>Your base movement speed is increased by 10 feet.</p>
             </description>
@@ -160,7 +160,7 @@
                 <stat name="speed" value="10" />
             </rules>
         </element>
-        <element name="Optic Camouflage" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_OPTIC_CAMO">
+        <element name="Optic Camouflage" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_OPTIC_CAMO">
             <description>
                 <p>Once per day, you can use invisibility on self for 2 rounds. The spell recharges after a long rest. You may not use this ability if unpowered.</p>
             </description>
@@ -171,7 +171,7 @@
                 <grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" />
             </rules>
         </element>
-        <element name="Sixth Sense" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_6THSENSE">
+        <element name="Sixth Sense" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_6THSENSE">
             <description>
                 <p>You gain proficiency in Dexterity saving throws.</p>
             </description>
@@ -182,7 +182,7 @@
                 <stat name="dexterity:save:proficiency" value="proficiency" />
             </rules>
         </element>
-        <element name="Toxic Blood" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_TOXICBLOOD">
+        <element name="Toxic Blood" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_TOXICBLOOD">
             <description>
                 <p>You gain resistance to disease and poison.</p>
             </description>
@@ -190,7 +190,7 @@
                 <description>You gain resistance to disease and poison.</description>
             </sheet>
         </element>
-        <element name="Mythril Bones" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_MYTHRILBONES">
+        <element name="Mythril Bones" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_MYTHRILBONES">
             <description>
                 <p>When falling you can roll 1d4 + your level to reduce the amount of fall damage you take, additionally, if you are running the Improved criticals module you can not have your bones broken by the major injury chart.</p>
             </description>
@@ -198,7 +198,7 @@
                 <description>When falling you can roll 1d4 + your level to reduce the amount of fall damage you take, additionally, if you are running the Improved criticals module you can not have your bones broken by the major injury chart.</description>
             </sheet>
         </element>
-        <element name="Focused Solar Lenses" type="Sub Race" source="D&amp;D Wiki" id="ID_MDP_SUBRACE_SUNLASER">
+        <element name="Focused Solar Lenses" type="Sub Race" source="D&amp;D Wiki" id="ID_SUBRACE_SUNLASER">
             <description>
                 <p>While in direct sunlight, you can fire a focused beam of energy out of your eyes in a straight line for up to 15 feet that does 1d6+ your level fire damage. The enemy must make a Dexterity save (dc=10 + Intelligence modifier), on a successful save they take half damage. You may use this ability a number of times equal to your Intelligence modifier. You regain all expended uses after a long rest.</p>
             </description>
