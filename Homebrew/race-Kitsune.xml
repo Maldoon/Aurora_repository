@@ -5,7 +5,7 @@
         <description>GM Binder Homebrew ported by Maldoon</description>
         <author url="https://www.gmbinder.com/share/-L0j-QOXYkM6IhPPO7M5">GM Binder</author>
         <update version="0.0.1">
-            <file name="race-Kitsune.xml" url="Pending :D" />
+            <file name="race-Kitsune.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Homebrew/race-Kitsune.xml" />
         </update>
     </info>
     

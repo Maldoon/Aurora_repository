@@ -8,5 +8,6 @@
     </info>
     <files>
         <file name="race-Foreclaimers.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Homebrew/race-Foreclaimers.xml" />
+        <file name="race-Kitsune.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Homebrew/race-Kitsune.xml"/>
     </files>
 </index>
