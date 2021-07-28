@@ -5,10 +5,11 @@
         <description>Created by: KibblesTasty <br></br> Fixed made by Maldoon</description>
         <update version="0.0.1">
             <file name="sorcerer-stoneheart_Fixed.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Fixes/sorcerer-stoneheart_Fixed.xml" />
+            <obsolete name="sorcerer-stoneheart.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/kibblestasty/sorcerer-stoneheart.xml" />
         </update>
     </info>
     
-    <element name="Stoneheart Sorcerer" type="Source" source="Maldoon_Port" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">
+    <element name="Stoneheart Sorcerer" type="Source" source="Maldoon's Port" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">
         <description>
             <![CDATA[<p></p>]]>
         </description>
@@ -21,8 +22,7 @@
             <set name="supplement">false</set>
             <set name="playtest">false</set>
             <set name="third-party">false</set>
-            <set name="homebrew">false</set>
-            <set name="maldoon_Port">true</set>
+            <set name="homebrew">true</set>
             <set name="league">false</set>
             
             <set name="release">20200930</set>

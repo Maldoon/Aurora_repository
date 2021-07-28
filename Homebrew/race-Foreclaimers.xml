@@ -11,7 +11,7 @@
         </info>
  
 
-    <element name="Foreclaimers" type="Race" source="D&amp;D Wiki" id="ID_MDP_Wiki_RACE_Foreclaimers">
+    <element name="Foreclaimer" type="Race" source="Maldoon's Port" id="ID_Wiki_RACE_Foreclaimers">
         <description>
             <h4>PHYSICAL DESCRIPTION</h4>
             <p>They are on average 6'8" tall with a quite slim body. <b>When Powered</b>. Their skin is mostly Grey, with glowing lines across their skin reminiscent of circuitry. A 3" long power crystal of various colors sits above where their navel would be. These crystals are the source of their enhanced power and glowing lines. It can be freely removed from its socket.<br></br><b>Unpowered</b>. When a Foreclaimer's power crystal is removed from its socket, they begin to grow weak and the purple lines disappear. If left unpowered for more than a year, they will slowly begin to degrade over the course of 100 years, eventually reducing their lifespan by half. A Foreclaimer who has been unpowered for more than a year can also begin to gain negative effects such as memory loss, developing strange obsessions or habits, and at worst growing feeble. </p>
@@ -42,13 +42,13 @@
             <stat name="innate speed" value="30" bonus="base" />
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Language" id="ID_LANGUAGE_ELVISH" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORECLAIMER_OBSERVANT" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORECLAIMER_POWERED" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FORECLAIMER_SUBRACE"/>
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FORECLAIMER_OBSERVANT" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FORECLAIMER_POWERED" />
+            <grant type="Racial Trait" id="ID_WIKI_RACIAL_TRAIT_FORECLAIMER_SUBRACE"/>
         </rules>
 
-        <element name="Solar Powered" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED">
+        <element name="Solar Powered" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FORCLAIMER_SOLARPOWERED">
             <description>
                 <p>When powered, you do not need to sleep nor can you be put to sleep from magical effects.</p>
             </description>
@@ -56,7 +56,7 @@
                 <description>When powered, you do not need to sleep nor can you be put to sleep from magical effects.</description>
             </sheet>
         </element>
-        <element name="Observant" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FORECLAIMER_OBSERVANT">
+        <element name="Observant" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FORECLAIMER_OBSERVANT">
             <description>
                 <p>You are proficient in your choice of Perception or Investigation</p>
             </description>
@@ -69,7 +69,7 @@
 
             </rules>
         </element>
-        <element name="Powered" type="Racial Trait" source="D&amp;D Wiki" id="ID_MDP_RACIAL_TRAIT_FORECLAIMER_POWERED">
+        <element name="Powered" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FORECLAIMER_POWERED">
             <description>
                 <p>A Foreclaimer's power crystal can be removed at will and when it is removed from its socket, they lose all racial bonuses as well as any innate ability to cast spells. After a day, The lines on their bodies will disappear. They will slowly begin to degrade over 100 years, eventually reducing their lifespan by half.</p>
             </description>
@@ -78,7 +78,7 @@
             </sheet>
         </element>
 
-        <element name="Forclaimer Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_FORECLAIMER_SUBRACE">
+        <element name="Forclaimer Subrace" type="Racial Trait" source="D&amp;D Wiki" id="ID_WIKI_RACIAL_TRAIT_FORECLAIMER_SUBRACE">
             <description>
                 <p>Adult Foreclaimers may choose to accept a type of body augmentation and subsequently be classified as a subrace. Choosing a body augmentation requires creating a new power crystal, which allows for only one augmentation at a time. The removal and insertion of a new crystal takes a toll on the Foreclaimer's body, and requires a long rest for the effects of the new crystal to take place.</p>
             </description>
