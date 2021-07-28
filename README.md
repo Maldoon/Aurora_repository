@@ -11,4 +11,4 @@ Hit the download button. Once the download is complete, restart the application 
 
 
 
-If you are here for the fixes, then you must download the files and place them in: ...customs/user/ user directory
+If you are here for the fixes, then you must download the files and place them in: the user folder in your custom settings.
