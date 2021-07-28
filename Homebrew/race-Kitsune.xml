@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Kitsune</name>
+        <description>GM Binder Homebrew ported by Maldoon</description>
+        <author url="https://www.gmbinder.com/share/-L0j-QOXYkM6IhPPO7M5">GM Binder</author>
+        <update version="0.0.1">
+            <file name="race-Kitsune.xml" url="Pending :D" />
+        </update>
+    </info>
+    
+    <element name="Kitsune" type="Race" source="GM Binder" id="ID_MDP_GMBINDER_RACE_Kitsune">
+        <description>
+            <p><em>he trackers followed their guide long and deepinto the woods. Foolishly, they ignored the archformed of willow branches. Foolishly, they paidno heed to the ring of mushrooms through which they strode. It was only when the woman stood before them atop the skinned bodies of her beloved kin, a multitude of amber-furred tails alight in witch-flame, that the hunters realized their mistake, their crime, and their sentence.</em><br></br>-Ren Kurama, Nine Tales of the Wuxian East<br></br>Trickster spirits and self-proclaimed guardians of nature, the Kitsune have beguiled and befuddled superstitious mortals since the invention of superstition itself. Kitsune famously share a mutual rivalry with Elves, both believing themselves to be the "true" wardens of the world's forested places. Elves look down on the Kitsune's oblique methods and apparent cruelty. Kitsune see Elves as a young upstart race -- which galls the eldest among them to no end.</p>
+            <p class="indent"></p>
+            <h4>TRICKSTER SPIRITS</h4>
+            <p>Kitsune shift regularly between the humanoid form of their adulthood and the animalistic form of their youth, treating neither as superior or more fitting than the other. Most commonly when dealing with other races, they maintain a "True Form" that balances aspects between them. Duplicitous or vengeful Kitsune tend to remain in one form or another to lure prey into a trap, not revealing their true power until it is too late to escape.</p>
+            <p class="indent"></p>
+            <h4>GUARDIANS OF SECRET PLACES</h4>
+            <p>Kitsune have holy sites dotted all over the world, saturated in the power of the wild pantheon most Kitsune revere. Intruders into these places are typically allowed to pass unmolested if they are ignorant of the wild gods or non malevolent toward nature. However, known despoilers of nature, such as hunters and loggers, tend to attract unwanted attention if they stumble upon a Kitsune shrine.</p>
+            <p class="indent"></p>
+            <h4>Kitsune Names</h4>
+            <p>Kitsune take their names from the tradition of eastern Wuxian territories, where the race was first birthed. Kitsune names are typically two syllables at least (though they can certainly grow longer) and end in a single vowel.</p>
+            <setter>
+                <set name="names" type="male">Aito, Daisuke, Goku, Hideo, Ikki, Josuke, Jotaro, Noritaka, Obito, Ranma, Tomo, Yoshiko</set>
+                <set name="names" type="female">Akatsuki, Kazumi, Mao, Naoko, Natsuko, Nozomi, Rei, Ryuko, Sachi, Tamiko, Umeko, Yoko</set>
+                <set name="names" type="neutral">Akira, Hikaru, Kakashi, Kurama, Matoi,Rena, Saotome, Sora, Uzumaki</set>
+                <set name="names-format">{{name}}</set>
+            </setter>
+            <p class="indent"></p>
+            <h4>Kitsune Traits</h4>
+            <p></p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2 and your Charisma score increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Kitsune reach adulthood (and sentience) after living for 100 years as a mundane fox. After becoming enlightened, Kitsune are effectively immortal.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Kitsune are usually Chaotic, being a race of tricksters and mischief-makers. Common Kitsune have no conception of good or evil as mortals understand it, and therefore trend toward Neutral.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Kitsune heights range widely, from the tallest Halfling to the shortest Elf. Most stand approximately 5 feet tall and weigh 100 pounds. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak Common and Sylvan.</p>
+            <p class="indent"><strong><em>Shapechanger</em></strong> You can shift between a humanoid form, an animal form, and your True Form as an action. Your True Form is a multi-tailed vulpine humanoid. Your humanoid form is a disguise mimicking a medium humanoid race of your choice. Your animal form is a fox.<br></br>All forms retain an identifying feature such as eye color, hair color, or a scar. Changing shape this way does not change your statistics. Taking damage you must make a concentration check. On a fail you to revert to your True Form.</p>
+            <p class="indent"><strong><em>Darkvision</em></strong> Your eyes have the thin slits and reflective nature of a foxes. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><strong><em>Keen Senses.</em></strong>Large, ambidextrous ears sit upon your head. You have advantage on Wisdom (Perception) checks that rely on hearing.</p>
+            <p class="indent"><strong><em>Illusion Sensitivity.</em></strong>Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception) checks when attempting to see through the illusion.</p>
+            <p class="indent"><strong><em>Mystic Tail.</em></strong>The Kitsune's tail is a highly magical part of their body. You can perform the somatic gestures for spells with your tails. If a spell requires a somatic component, the kitsune must have free use of their tails or at least one hand to perform the gestures.<br></br>At 1st level, a Kitsune has one tail. Every two levels afterward, they grow another tail, until their ninth at 17th level. Kitsune can cause all of their tails to vanish when in humanoid form, and all but one in True Form or animal form. As a bonus action, you may cause the tips of any number of your tails to flare with blue flame which projects dim light up to 30 feet. The next time a ranged, melee, or spell attack you make hits, you may cause any number of flaming tails to extinguish, and add that much damage to the attack. You can use each of your tails like this once per long rest.</p>            
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="charisma" value="1" />
+            <grant type="size" id="ID_SIZE_MEDIUM" />
+            <stat name="speed" value="35" bonus="base" />
+            <grant type="Racial Trait" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_SHAPECHANGER" />
+            <grant type="Racial Trait" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_DARKVISION" />
+            <grant type="Racial Trait" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_ILLUSION_SENSITIVITY" />
+            <grant type="Racial Trait" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_MYSTIC_TAIL" />
+        </rules>
+    </element>
+    
+    <element name="Shapechanger" type="Racial Trait" source="GM Binder" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_SHAPECHANGER">
+        <description>
+            <p>You can shift between a humanoid form, an animal form, and your True Form as an action. Your True Form is a multi-tailed vulpine humanoid. Your humanoid form is a disguise mimicking a medium humanoid race of your choice. Your animal form is a fox.<br></br>All forms retain an identifying feature such as eye color, hair color, or a scar. Changing shape this way does not change your statistics. Taking damage you must make a concentration check. On a fail you to revert to your True Form.</p>
+        </description>
+        <sheet>
+            <description>You can shift between a humanoid form, an animal form, and your True Form as an action. Your True Form is a multi-tailed vulpine humanoid. Your humanoid form is a disguise mimicking a medium humanoid race of your choice. Your animal form is a fox.<br></br>All forms retain an identifying feature such as eye color, hair color, or a scar. Changing shape this way does not change your statistics. Taking damage you must make a concentration check. On a fail you to revert to your True Form.</description>
+        </sheet>
+    </element>
+    <element name="Darkvision" type="Racial Trait" source="GM Binder" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_DARKVISION">
+        <description>
+            <p>Your eyes have the thin slits and reflective nature of a foxes. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>Your eyes have the thin slits and reflective nature of a foxes. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+        </rules>
+    </element>
+    <element name="Keen Senses" type="Racial Trait" source="GM Binder" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_KEEN_SENSES">
+        <description>
+            <p>Large, ambidextrous ears sit upon your head. You have advantage on Wisdom (Perception) checks that rely on hearing.</p>
+        </description>
+        <sheet>
+            <description>Large, ambidextrous ears sit upon your head. You have advantage on Wisdom (Perception) checks that rely on hearing.</description>
+        </sheet>
+    </element>
+    <element name="Illusion Sensitivity" type="Racial Trait" source="GM Binder" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_ILLUSION_SENSITIVITY">
+        <description>
+            <p>Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception) checks when attempting to see through the illusion.</p>
+        </description>
+        <sheet>
+            <description>Illusions are your lifeblood. You have played with them since you were a child. You have advantage on Wisdom(Perception) checks when attempting to see through the illusion.</description>
+        </sheet>
+    </element>
+    <element name="Mystic Tail" type="Racial Trait" source="GM Binder" id="ID_MDP_GMBINDER_RACIAL_TRAIT_KITSUNE_MYSTIC_TAIL">
+        <description>
+            <p>The Kitsune's tail is a highly magical part of their body. You can perform the somatic gestures for spells with your tails. If a spell requires a somatic component, the kitsune must have free use of their tails or at least one hand to perform the gestures.<br></br>At 1st level, a Kitsune has one tail. Every two levels afterward, they grow another tail, until their ninth at 17th level. Kitsune can cause all of their tails to vanish when in humanoid form, and all but one in True Form or animal form. As a bonus action, you may cause the tips of any number of your tails to flare with blue flame which projects dim light up to 30 feet. The next time a ranged, melee, or spell attack you make hits, you may cause any number of flaming tails to extinguish, and add that much damage to the attack. You can use each of your tails like this once per long rest.</p>
+        </description>
+        <sheet>
+            <description>The Kitsune's tail is a highly magical part of their body. You can perform the somatic gestures for spells with your tails. If a spell requires a somatic component, the kitsune must have free use of their tails or at least one hand to perform the gestures.<br></br>At 1st level, a Kitsune has one tail. Every two levels afterward, they grow another tail, until their ninth at 17th level. Kitsune can cause all of their tails to vanish when in humanoid form, and all but one in True Form or animal form. As a bonus action, you may cause the tips of any number of your tails to flare with blue flame which projects dim light up to 30 feet. The next time a ranged, melee, or spell attack you make hits, you may cause any number of flaming tails to extinguish, and add that much damage to the attack. You can use each of your tails like this once per long rest.</description>
+        </sheet>
+    </element>
+
+
+</elements>
