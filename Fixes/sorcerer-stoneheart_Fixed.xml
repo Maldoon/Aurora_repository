@@ -22,7 +22,8 @@
             <set name="supplement">false</set>
             <set name="playtest">false</set>
             <set name="third-party">false</set>
-            <set name="homebrew">true</set>
+            <set name="homebrew">false</set>
+            <set name="KibbleStasty">true</set>
             <set name="league">false</set>
             
             <set name="release">20200930</set>
