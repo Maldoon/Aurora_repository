@@ -2,7 +2,10 @@
 <elements>
     <info>
         <name>Stoneheart Sorcerous Origin</name>
-        
+        <description>Created by: KibblesTasty <br></br> Fixed made by Maldoon</description>
+        <update version="0.0.1">
+            <file name="sorcerer-stoneheart.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/kibblestasty/sorcerer-stoneheart.xml" />
+        </update>
     </info>
     
     <element name="Stoneheart Sorcerer" type="Source" source="Core" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">

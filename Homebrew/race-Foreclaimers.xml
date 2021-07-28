@@ -6,7 +6,7 @@
             <description>D&amp;D Wiki 5e homebrew ported to Aurora by Maldoon</description>
             <author url="https://www.dandwiki.com/wiki/Foreclaimers_(5e_Race)">D&amp;D Wiki</author>
             <update version="0.0.1">
-                <file name="race-Foreclaimers.xml" url="baseurl/race-Foreclaimers.xml" />
+                <file name="race-Foreclaimers.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Homebrew/race-Foreclaimers.xml" />
             </update>
         </info>
  
