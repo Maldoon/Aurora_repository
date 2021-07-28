@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
     <info>
         <name>Maldoon's Homebrew</name>
         <update version="0.0.1">
-            <file name="homebrew.index" url="placeholder" />
+            <file name="homebrew.index" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Homebrew/homebrew.index" />
         </update>
     </info>
     <files>
-        <file name="race-Foreclaimers.xml" url="placeholder" />
+        <file name="race-Foreclaimers.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Homebrew/race-Foreclaimers.xml" />
     </files>
 </index>

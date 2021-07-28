@@ -3,10 +3,10 @@
     <info>
         <name>Maldoon's Fixes</name>
         <update version="0.0.1">
-            <file name="fixes.index" url="placehodler" />
+            <file name="fixes.index" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Fixes/fixes.index" />
         </update>
     </info>
     <files>
-        <file name="sorcerer-stoneheart_Fixed.xml" url="placeholder" />
+        <file name="sorcerer-stoneheart_Fixed.xml" url="https://raw.githubusercontent.com/Maldoon/My_Aurora_repository/main/Fixes/sorcerer-stoneheart_Fixed.xml" />
     </files>
 </index>
