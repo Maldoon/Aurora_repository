@@ -8,7 +8,7 @@
         </update>
     </info>
     
-    <element name="Stoneheart Sorcerer" type="Source" source="Core" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">
+    <element name="Stoneheart Sorcerer" type="Source" source="Maldoon_Port" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">
         <description>
             <![CDATA[<p></p>]]>
         </description>
@@ -21,8 +21,10 @@
             <set name="supplement">false</set>
             <set name="playtest">false</set>
             <set name="third-party">false</set>
-            <set name="homebrew">true</set>
+            <set name="homebrew">false</set>
+            <set name="maldoon_Port">true</set>
             <set name="league">false</set>
+            
             <set name="release">20200930</set>
         </setters>
     </element>
