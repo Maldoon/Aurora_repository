@@ -9,7 +9,7 @@
         </update>
     </info>
     
-    <element name="Stoneheart Sorcerer" type="Source" source="Maldoon's Port" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">
+    <element name="Stoneheart Sorcerer" type="Source" source="Core" id="ID_KIBBLESTASTY_GMBINDER_SOURCE_STONEHEART">
         <description>
             <![CDATA[<p></p>]]>
         </description>
