@@ -66,7 +66,7 @@
             </sheet>
             <rules>
                 
-                <select type="Proficiency" name="Observant" supports="ID_PROFICIENCY_PERCEPTION | ID_PROFICIENCY_INVESTIGATION" />
+                <select type="Proficiency" name="Observant" supports="ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_INVESTIGATION" />
 
             </rules>
         </element>
